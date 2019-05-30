@@ -1,0 +1,41 @@
+#main-header img {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-black {
+    background: #000;
+    color: #fff;
+}
+
+.bg-primary {
+    background: #9099a2 !important;
+}
+
+.bg-success {
+    background: #6d7993 !important;
+}
+
+.bg-warning {
+    background: #96858f !important;
+}
+
+.bg-danger {
+    background: #d5d5d5 !important;
+}
+
+
+#main-header .port-item {
+    width: 25%;
+}
+
+#main-header .port-item:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@media(min-width: 1199px) {
+    .port-item {
+        padding: 4em !important;
+    }
+}
